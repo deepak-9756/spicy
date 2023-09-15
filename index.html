@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spicy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="navbar flex">
+                <div><img src="images/logo.png" alt="404"></div>
+                <div class="list">
+                    <ul>
+                        <li><a id="btn1"href="#">Login</a></li>
+                        <li><a id="btn2" href="#">Register</a></li>
+                        <li class="img1"><img src="images/search_icon.png" alt="404"></li>
+                        <li class="img1"><img src="images/menu_icon.png" alt="404"></li>
+                    </ul>
+                </div> 
+            </div>
+        </header>
+            <div class="main-menu flex">
+                <div>
+                    <img id="a1" src="images/-2.jpg" alt="404">
+                    <img  id="a2" src="images/-2.jpg" alt="404">
+                </div>
+                <div class="data">
+                    <h1>Discover Restaurants
+                        That deliver near You</h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at it's layout.</p>
+                        <button id="order-now">Order Now</button>
+                </div>
+                <img id="burger" src="images/burger_slide.png" alt="404">
+        </div>
+        <div class="itemsList">
+            <h1>Our Recipes</h1>
+            <div class="items flex">
+                <div>
+                    <img src="images/rs1.png" alt="404">
+                    <h2>HomeMade</h2>
+                    <h2>$50</h2>
+                </div>
+                <div>
+                    <img src="images/rs2.png" alt="404">
+                    <h2>Noodeles</h2>
+                    <h2>$100</h2>
+                </div>
+                <div>
+                    <img src="images/rs3.png" alt="404">
+                    <h2>Eggs</h2>
+                    <h2>$30</h2>
+                </div>
+                <div>
+                    <img src="images/rs4.png" alt="404">
+                    <h2>Sushie Dices</h2>
+                    <h2>$60</h2>
+                </div>
+                <div>
+                    <img src="images/rs5.png" alt="404">
+                    <h2>Snakes</h2>
+                    <h2>$40</h2></div>
+            </div>
+            <div class="arrow flex">
+                <img src="images/-2.jpg" alt="404">
+                <img src="images/-2.jpg" alt="404">
+            </div> 
+        </div>
+        <div class="information">
+            <div class="formpart flex">
+                <div class="info-form">
+                    <h1>Request A <span>Call Back</span></h1>
+                    <form action="">
+                        <input type="text" id="name" placeholder="Name" required>
+                        <input type="email" id="email" placeholder="Email" required>
+                        <input type="tel" id="phone" placeholder="Phone" required>
+                        <input type="msg" id="msg" placeholder="Message" required>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="food-img">
+                    <img src="images/img.jpg" alt="404">
+                </div>
+            </div>
+            <div class="info-logo">
+                <img src="images/logo.png" alt="404">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="c:\Users\91707\Desktop\JS\jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#a1").click(function(){
+            $(".data,#burger").slideUp().slideDown();
+            });
+        });
+        $(document).ready(function(){
+            $("#a2").click(function(){
+            $(".data,#burger").slideUp().slideDown();
+            });
+        });
+    </script>
+    
+</body>
+</html>
